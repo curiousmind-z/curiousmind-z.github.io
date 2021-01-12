@@ -266,16 +266,62 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+# Collections
+ collections:
+   research:
+     output: true
+     permalink: /:collection/:path/
+   projects:
+     output: true
+     permalink: /:collection/:path/
+   tools:
+     output: true
+     permalink: /:collection/:path/
+
+ # Defaults
+ defaults:
+   # ...
+   # _posts
+   - scope:
+       path: ""
+       type: posts
+     values:
+       layout: single
+       author_profile: true
+       read_time: true
+       comments: # true
+       share: true
+       related: true
+   # _research
+   - scope:
+       path: ""
+       type: research
+     values:
+       layout: single
+       author_profile: true
+       read_time: true
+       comments: # true
+       share: true
+       related: true
+   # _projects
+   - scope:
+       path: ""
+       type: projects
+     values:
+       layout: single
+       author_profile: true
+       read_time: true
+       comments: # true
+       share: true
+       related: true
+   # _tools
+   - scope:
+       path: ""
+       type: tools
+     values:
+       layout: single
+       author_profile: true
+       read_time: true
+       comments: # true
+       share: true
+       related: true

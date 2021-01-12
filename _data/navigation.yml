@@ -2,11 +2,11 @@
 main:
   - title: "Blog"
     url: /
-  # - title: "Research"
-  #   url: /research/
-  # - title: "Projects"
-  #   url: /projects/
-  # - title: "Tools"
-  #   url: /tools/
-  # - title: "About"
-  #   url: /cv/
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Tools"
+    url: /tools/
+  - title: "About"
+    url: /cv/
