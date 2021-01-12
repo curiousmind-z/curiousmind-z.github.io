@@ -94,14 +94,14 @@ analytics:
 # Site Author
 author:
   name             : "Curiousmind"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a PM."
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "Log my life."
   location         : "Beijing, China"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "1531392800@qq.com"
+      url: "1531392800@qq.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -211,7 +211,6 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -264,64 +263,63 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
+    
 # Collections
- collections:
-   research:
-     output: true
-     permalink: /:collection/:path/
-   projects:
-     output: true
-     permalink: /:collection/:path/
-   tools:
-     output: true
-     permalink: /:collection/:path/
+collections:
+  research:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  tools:
+    output: true
+    permalink: /:collection/:path/
 
- # Defaults
- defaults:
-   # ...
-   # _posts
-   - scope:
-       path: ""
-       type: posts
-     values:
-       layout: single
-       author_profile: true
-       read_time: true
-       comments: # true
-       share: true
-       related: true
-   # _research
-   - scope:
-       path: ""
-       type: research
-     values:
-       layout: single
-       author_profile: true
-       read_time: true
-       comments: # true
-       share: true
-       related: true
-   # _projects
-   - scope:
-       path: ""
-       type: projects
-     values:
-       layout: single
-       author_profile: true
-       read_time: true
-       comments: # true
-       share: true
-       related: true
-   # _tools
-   - scope:
-       path: ""
-       type: tools
-     values:
-       layout: single
-       author_profile: true
-       read_time: true
-       comments: # true
-       share: true
-       related: true
+# Defaults
+defaults:
+  # ...
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+# _research
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+# _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+# _tools
+  - scope:
+      path: ""
+      type: tools
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
