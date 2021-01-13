@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 {% if paginator %}
-  {% assign posts = paginator.posts %}
+  {% assign research = paginator.research %}
 {% else %}
-  {% assign posts = site.posts %}
+  {% assign research = site.research %}
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
