@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Blog"
-    url: /
+    url: /posts/
   - title: "Research"
     url: /research/
   - title: "Projects"
