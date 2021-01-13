@@ -272,9 +272,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  tools:
-    output: true
-    permalink: /:collection/:path/
+  
 
 # Defaults
 defaults:
@@ -305,17 +303,6 @@ defaults:
   - scope:
       path: ""
       type: projects
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-# _tools
-  - scope:
-      path: ""
-      type: tools
     values:
       layout: single
       author_profile: true
