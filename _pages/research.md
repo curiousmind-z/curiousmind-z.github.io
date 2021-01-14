@@ -3,6 +3,7 @@ title: "Research"
 layout: collection
 permalink: /research/
 collection: research
+author_profile: true
 entries_layout: grid
 classes: wide
 sort_by: title
