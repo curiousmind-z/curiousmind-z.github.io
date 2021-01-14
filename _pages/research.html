@@ -1,21 +1,12 @@
 ---
-layout: archive
-title: "Research by Collection"
+title: "Research"
+layout: collection
 permalink: /research/
-author_profile: true
+collection: research
+entries_layout: grid
+classes: wide
+sort_by: title
+sort_order: reverse
 ---
 
-{% if paginator %}
-  {% assign research = paginator.research %}
-{% else %}
-  {% assign research = site.research %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for research in research %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
-</div>
-
-{% include paginator.html %}
+This is a list of some of the past project that I have done.
